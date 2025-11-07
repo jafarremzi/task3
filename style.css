@@ -7,6 +7,10 @@
   box-sizing: border-box;
   outline: 0;
 }
+a{
+  outline: none;
+  color: var(--color-secdory);
+}
 html {
   font-size: 62.5%;
 }
@@ -304,7 +308,15 @@ justify-content: space-between;
 padding: 1rem;
 }
 /* payment */
-.payment{ background-color: var(--color-secdory); padding: 2rem; border-radius:15px ; -webkit-border-radius:15px ; -moz-border-radius:15px ; -ms-border-radius:15px ; -o-border-radius:15px ;
+.payment{
+  background-color: var(--color-secdory);
+  border-radius: 14px;
+  -webkit-border-radius: 14px;
+  -moz-border-radius: 14px;
+  -ms-border-radius: 14px;
+  -o-border-radius: 14px;
+  margin-top: 1rem;
+  padding: 1rem;
 }
 .logo-pay{
 display: flex;
